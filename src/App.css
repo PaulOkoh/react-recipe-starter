@@ -41,3 +41,12 @@ button {
 	background-color: #ff8000ed;
 }
 
+main {
+	padding-bottom: 200px;
+}
+
+orange-btn {
+	background-color:#ff8000ed;
+	color: white;
+
+}
