@@ -26,11 +26,18 @@ html {
 	box-sizing: border-box;
 }
 
+/* h1, h2, h3, h4, h5, h6, p, input, button, span, div, body, textarea {
+	font-family: "Roboto", sans-serif;
+} */
+
+
 button {
 	color: #fff;
 	border:none;
 	border-radius: 5px;
 	font-size: 22px;
 	height: 45px;
-
+	min-width: 120px;
+	background-color: #ff8000ed;
 }
+

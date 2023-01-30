@@ -1,22 +1,23 @@
 import React from "react";
+import css from "./Footer.module.css"
 import { ImFacebook, ImInstagram, ImTwitter, ImGithub } from "react-icons/im";
 
 const Footer = () => {
   return (
     <footer>
-      <div>
+      <div className={css.icons_container}>
         <h5>Hit us up on our socials!</h5>
-        <div>
-          <a href="https://www.devmountain.com" target="_blank">
+        <div className={css.icons}>
+          <a href="https://www.devmountain.com" target="_blank" className={css.div_icons}>
             <ImFacebook size="1.5em" color="#3f3f3f" />
           </a>
-          <a href="https://www.devmountain.com" target="_blank">
+          <a href="https://www.devmountain.com" target="_blank" className={css.div_icons}>
             <ImInstagram size="1.5em" color="#3f3f3f" />
           </a>
-          <a href="https://www.devmountain.com" target="_blank">
+          <a href="https://www.devmountain.com" target="_blank" className={css.div_icons}>
             <ImTwitter size="1.5em" color="#3f3f3f" />
           </a>
-          <a href="https://www.devmountain.com" target="_blank">
+          <a href="https://www.devmountain.com" target="_blank" className={css.div_icons}>
             <ImGithub size="1.5em" color="#3f3f3f" />
           </a>
         </div>

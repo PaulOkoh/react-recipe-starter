@@ -1,0 +1,31 @@
+.banner {
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  color: white;
+  display:flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner_text {
+  width: 880px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+h1 {
+  color: #ff8000ed;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.banner_btn {
+  color: white;
+  background-color: #4e7a4e;
+}
