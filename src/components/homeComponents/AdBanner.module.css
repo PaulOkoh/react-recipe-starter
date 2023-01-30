@@ -25,7 +25,16 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 36px;
+  color: black;
+}
+
 .banner_btn {
   color: white;
   background-color: #4e7a4e;
+}
+
+h3 {
+  font-size: 24px;
 }
