@@ -26,9 +26,9 @@ html {
 	box-sizing: border-box;
 }
 
-/* h1, h2, h3, h4, h5, h6, p, input, button, span, div, body, textarea {
+h1, h2, h3, h4, h5, h6, p, input, button, span, div, body, textarea {
 	font-family: "Roboto", sans-serif;
-} */
+}
 
 
 button {
@@ -49,4 +49,10 @@ orange-btn {
 	background-color:#ff8000ed;
 	color: white;
 
+}
+
+.App {
+	position: relative;
+	top: 0;
+	min-height: 100vh;
 }
